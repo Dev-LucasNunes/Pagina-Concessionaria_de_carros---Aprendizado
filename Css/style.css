@@ -344,6 +344,71 @@ section.contato input[type=submit]{
 	display: inline-block;
     width: 30%;
 }
+section.contato .line2 > h2{
+    position: relative;
+    top: -15px;
+    padding: 0 20px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 2.7rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+section.contato2 form{
+	max-width: 600px;
+	margin:30px auto;
+}
+
+section.contato2 .input-wraper{
+	float: left;
+	padding:10px;
+	margin-top:7px;
+}
+
+section.contato2 input[type=text]{
+	width: 100%;
+	border: 1px solid #ccc;
+	height: 60px;
+	font-size: 16px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+section.contato2 textarea{
+	font-size: 16px;
+	width: 100%;
+	border:1px solid #ccc;
+	height: 140px;
+	padding:8px;
+	resize: none;
+}
+section.contato2 .line2 > h2{
+    position: relative;
+    top: -15px;
+    padding: 0 20px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 2.7rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+section.contato2 form .input-wraper:nth-of-type(5){
+	text-align: center;
+}
+
+section.contato2 input[type=submit]{
+	border-right: 0;
+	border-left: 0;
+	border-top: 0;
+	cursor: pointer;
+	display: inline-block;
+    width: 30%;
+}
 
 .w100{
 	width: 100%;
@@ -869,7 +934,6 @@ section.banner{
 .descricao-veiculo {
     text-align: center;
     width: 100%;
-    padding:20px 10px 0px 10px;
 }
 .descricao-veiculo > p{
     margin: 10px auto 0 auto;
@@ -877,13 +941,7 @@ section.banner{
     max-width: none;
     width: 80%;
 }
-section.contato{
-    margin-bottom: 20px;
-    padding-top: 0px;
-}
-section.veiculos-destaque{
-    padding-top: 20px;
-}
+
 
 }
 
